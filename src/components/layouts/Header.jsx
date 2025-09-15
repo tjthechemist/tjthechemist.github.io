@@ -1,9 +1,17 @@
-export const Header = () => {
+import { Navigation } from "./Navigation";
+import { ModeToggle } from "@/components/ui/mode-toggle";
 
+export const Header = () => {
     return (
         <header>
-            <h1 className="text-3xl font-bold">TJ the Chemist's Personal Webpage</h1>
+            <div className="flex justify-between">
+                <div className="p-4 w-2/3">
+                    <Navigation />
+                </div>
+                <div className="p-4 w-1/3">
+                    <ModeToggle />
+                </div>
+            </div>
         </header>
     );
-
 };

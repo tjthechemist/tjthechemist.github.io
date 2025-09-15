@@ -1,9 +1,14 @@
-export const Layout = ({ children }) => {
+import { Header, Footer } from "@/components/layouts";
+
+export const Layout = ({ component }) => {
 
     return (
         <div>
-            <main>{children}</main>
+            <Header />
+            <main>
+                { component }
+            </main>
+            <Footer />
         </div>
     );
-
 };
