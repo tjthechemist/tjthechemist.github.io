@@ -1,7 +1,9 @@
-export const Profiles = () => {
+export const Summary = () => {
+
     return (
         <section>
-            
+            <div></div>
         </section>
     );
+
 };
