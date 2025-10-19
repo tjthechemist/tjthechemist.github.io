@@ -1,8 +1,8 @@
-export const Projects = () => {
+export const FinishedProjects = () => {
 
     return (
         <section>
-            
+
         </section>
-    )
+    );
 };

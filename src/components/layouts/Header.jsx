@@ -4,14 +4,14 @@ import { ModeToggle } from "@/components/ui/mode-toggle";
 export const Header = () => {
     return (
         <header>
-            <div className="flex justify-between">
-                <div className="p-4 w-2/3">
+            <section className="flex justify-between">
+                <div className="p-8 w-9/10">
                     <Navigation />
                 </div>
-                <div className="p-4 w-1/3">
+                <div className="p-8 w-1/10">
                     <ModeToggle />
                 </div>
-            </div>
+            </section>
         </header>
     );
 };

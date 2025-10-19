@@ -1,5 +1,8 @@
 export const Tutoring = () => {
+
     return (
-        <div></div>
+        <section>
+            <h1 className="font-semibold text-2xl p-8">Tutoring Topic</h1>
+        </section>
     );
 }

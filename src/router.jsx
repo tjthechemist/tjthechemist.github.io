@@ -1,11 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, Profiles, Tutoring, } from "@/pages";
+import { Home, Profiles, Tutoring, Projects } from "@/pages";
 import { Layout } from "@/components/layouts";
 
 const pages = [
     {path: "/", component: <Home />},
     {path: "/profiles", component: <Profiles />},
-    {path: "/tutoring", component: <Tutoring />}
+    {path: "/projects", component: <Projects />},
+    {path: "/tutoring", component: <Tutoring />},
 ];
 
 export const AppRouter = () => {
