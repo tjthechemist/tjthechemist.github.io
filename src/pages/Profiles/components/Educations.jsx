@@ -1,4 +1,10 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+    Card,
+    CardContent,
+    CardDescription,
+    CardHeader,
+    CardTitle
+} from "@/components/ui/card";
 
 const EducationCard = ({data}) => {
 
@@ -36,7 +42,7 @@ export const Educations = () => {
     return (
         <section>
             <h2 className="font-semibold text-xl p-8">Educations</h2>
-            {degreeData.map((data, index) => (
+            {degreeData.map((data) => (
                 <EducationCard data={data} />
             ))}
         </section>
