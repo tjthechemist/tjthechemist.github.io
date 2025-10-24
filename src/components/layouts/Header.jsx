@@ -5,10 +5,10 @@ export const Header = () => {
     return (
         <header>
             <section className="flex justify-between">
-                <div className="p-8 w-9/10">
+                <div className="p-4 w-9/10">
                     <Navigation />
                 </div>
-                <div className="p-8 w-1/10">
+                <div className="p-4 w-1/10">
                     <ModeToggle />
                 </div>
             </section>
