@@ -26,11 +26,6 @@ export const Navigation = () => {
                         <Link to="/projects">Projects</Link>
                     </NavigationMenuLink>
                 </NavigationMenuItem>
-                <NavigationMenuItem>
-                    <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-                        <Link to="/tutoring">Tutoring</Link>
-                    </NavigationMenuLink>
-                </NavigationMenuItem>
             </NavigationMenuList>
         </NavigationMenu>
     );

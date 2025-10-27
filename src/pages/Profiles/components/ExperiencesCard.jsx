@@ -8,7 +8,7 @@ import {
 
 export const ExperiencesCard = ({ experience }) => {
     return (
-        <Card>
+        <Card className="w-full">
             <CardHeader>
                 <CardTitle>{experience.title}</CardTitle>
                 <CardDescription>{experience.workplace}</CardDescription>
@@ -16,7 +16,7 @@ export const ExperiencesCard = ({ experience }) => {
             <CardContent>
                 <h3 className="font-semibold">Work Period: {experience.period}</h3>
                 <h3 className="font-semibold">Job Description</h3>
-                <p className="font-semibold">{experience.description}</p>
+                <p>{experience.description}</p>
             </CardContent>
         </Card>
     );

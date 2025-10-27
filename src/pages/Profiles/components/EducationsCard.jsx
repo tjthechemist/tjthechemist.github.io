@@ -8,7 +8,7 @@ import {
 
 export const EducationCard = ({ education }) => {
     return (
-        <Card>
+        <Card className="w-full">
             <CardHeader>
                 <CardTitle>{education.degree}</CardTitle>
                 <CardDescription>{education.institution}</CardDescription>
@@ -18,7 +18,7 @@ export const EducationCard = ({ education }) => {
                 {education.specialCourses && education.specialCourses.length > 0 && (
                     <div>
                         <h3>Special Courses:</h3>
-                        <ul className="list-disc ml-5 space-y-1 text-sm text-gray-700 dark:text-gray-300">
+                        <ul className="list-disc mx-4 space-y-1 text-sm text-gray-700 dark:text-gray-300">
                             {education.specialCourses.map((course, index) => (
                                 <li key={index}>{course}</li>
                             ))}

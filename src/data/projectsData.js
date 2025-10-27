@@ -18,7 +18,7 @@ export const finishedProjectsList = [
         tools: ["NumPy", "Pandas", "Scikit-Learn"],
         deployed: false,
         github: "https://github.com/tjthechemist/QSARModel",
-        tags: []
+        tags: ["ML", "QSAR"]
     },
     {
         id: "2",
@@ -28,7 +28,7 @@ export const finishedProjectsList = [
         tools: ["RDKit", "Tensorflow", "NumPy", "Pandas"],
         deployed: false,
         github: "https://github.com/tjthechemist/Thesis_Retrosynthesis",
-        tags: []
+        tags: ["Thesis", "Tensorflow", "Retrosynthesis"]
     }
 ];
 

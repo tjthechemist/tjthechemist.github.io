@@ -10,7 +10,7 @@ export const ProjectCard = ({ project }) => {
     return (
         <Card>
             <CardHeader>
-                <CardTitle>{project.projectName}</CardTitle>
+                <CardTitle>{project.title}</CardTitle>
                 <CardDescription>{project.description}</CardDescription>
             </CardHeader>
             <CardContent>
