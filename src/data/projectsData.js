@@ -45,7 +45,7 @@ export const finishedProjectsList = [
         title: "SAT score calculator",
         description: "",
         programmingLanguage: "JavaScript",
-        tool: ["Vite", "React", "TailWindCSS"],
+        tools: ["Vite", "React", "TailWindCSS"],
         deployed: true,
         github: "https://github.com/tjthechemist/sat-frontend",
         tags: ["SAT"]
