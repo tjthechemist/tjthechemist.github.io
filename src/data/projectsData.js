@@ -36,7 +36,7 @@ export const finishedProjectsList = [
         description: "",
         programmingLanguage: "JavaScript",
         tools: ["n8n"],
-        deployed: false,
+        deployed: true,
         github: "",
         tags: ["Automation", "n8n"]
     }
