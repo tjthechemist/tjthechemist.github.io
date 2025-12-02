@@ -29,6 +29,16 @@ export const finishedProjectsList = [
         deployed: false,
         github: "https://github.com/tjthechemist/Thesis_Retrosynthesis",
         tags: ["Thesis", "Tensorflow", "Retrosynthesis"]
+    },
+    {
+        id: "3",
+        title: "n8n MathLogik",
+        description: "",
+        programmingLanguage: "JavaScript",
+        tools: ["n8n"],
+        deployed: false,
+        github: "",
+        tags: ["Automation", "n8n"]
     }
 ];
 
